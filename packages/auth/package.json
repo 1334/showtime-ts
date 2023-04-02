@@ -1,5 +1,5 @@
 {
-  "name": "@acme/auth",
+  "name": "@showtime/auth",
   "version": "0.1.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -11,8 +11,8 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/db": "*",
     "@next-auth/prisma-adapter": "^1.0.5",
+    "@showtime/db": "*",
     "next": "^13.2.3",
     "next-auth": "^4.20.1",
     "react": "18.2.0",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "eslint": "^8.34.0",
-    "eslint-config-acme": "0.0.0",
+    "eslint-config-showtime": "0.0.0",
     "typescript": "^5.0.0"
   }
 }
